@@ -501,7 +501,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"**👤 - [{usr.first_name}](tg://user?id={usr.id}) \n**"
       if event.chat_id not in tekli_calisan:
-        await event.respond("**Tag prosesi uğurla dayandırıldı ✅\n\n**Buda sizin reklamınız ola bilər  @Dakanca_Hozu**✅****")
+        await event.respond("**Tag prosesi uğurla dayandırıldı ✅\n\n**Buda sizin reklamınız ola bilər  @Dakanca_Hozu ✅**")
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, f"{usrtxt} {msg}")
@@ -519,7 +519,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"👤 - [{usr.first_name}](tg://user?id={usr.id}) \n"
       if event.chat_id not in tekli_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Buda sizin reklamınız ola bilər  @Dakanca_Hozu**✅**")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Buda sizin reklamınız ola bilər  @Dakanca_Hozu ✅**")
         return
       if usrnum == 1:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -553,5 +553,5 @@ async def mentionall(tagadmin):
 		sleep(0.5)
 
 
-print(">> Bot aktifdi bot hakda məlumatı @KamranEhmdov dan ala bilərsən Versiya 1.7.5<<")
+print(">> Bot aktifdi bot hakda məlumatı @Dakanca_Hozu dan ala bilərsən Versiya 1.7.5<<")
 client.run_until_disconnected()
