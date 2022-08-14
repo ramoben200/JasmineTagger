@@ -1,7 +1,7 @@
 {
-  "name": "Rahid Tag Bot",
-  "logo":"https://te.legra.ph/file/9297759dad7bac69eee9f.jpg",
-  "description": "Rahid Tag Pulsuz şəkildə qrupunuzda hərkəsi tag edə bilər.",
+  "name": "Jasmine Tagger",
+  "logo":"https://telegra.ph/file/6acfe5fed2ea03e86755e.jpg",
+  "description": "Jasmine Tagger Azərbaycanda No'1 Olan Tagger Botdur.",
   "env": {
     "TOKEN": {
       "description": "@botfather botdan ala bilərsən (Zəruri)",
