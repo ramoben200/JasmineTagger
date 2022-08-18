@@ -29,7 +29,7 @@ async def start(event):
 		      [Button.url('➕ Məni Qurupa əlavə et ➕', 'http://t.me/JasmineTaggerBot?startgroup=a')],
                       [Button.url('Support 🤝', 'https://t.me/JasmineSup')],
                       [Button.url('Rəsmi Kanal 📢', 'https://t.me/Tamistedigim')],
-                      [Button.url('Grupum 💫', 'https://t.me/Alay57Chat')],
+                      [Button.url('Grupum 💫', 'https://t.me/OliqarcCenter')],
 		      [Button.url('Sahib 🖤', 'https://t.me/iamZ3NT4')] 
                     ),
                     link_preview=False
@@ -42,7 +42,7 @@ async def help(event):
                       [Button.url('➕ Məni Qurupa əlavə et ➕', 'http://t.me/JasmineTaggerBot?startgroup=a')],
                       [Button.url('Support 🤝', 'https://t.me/JasmineSup')],
                       [Button.url('Rəsmi Kanal 📢', 'https://t.me/Tamistedigim')],
-                      [Button.url('Grupum 💬', 'https://t.me/Alay57Chat')],
+                      [Button.url('Grupum 💬', 'https://t.me/OliqarcCenter')],
 		      [Button.url('Sahibim 💞', 'https://t.me/iamZ3NT4')],
                     ),
                     link_preview=False
@@ -113,7 +113,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(sehidler)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Buda sizin reklamınız ola bilər @iamZ3NT4**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n** [Button.url('Grupum😋💬', 'https://t.me/OliqarcCenter']) Buda sizin reklamınız ola bilər @iamZ3NT4**✅")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -183,7 +183,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(seherler)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Buda sizin reklamınız ola bilər  @iamZ3NT4**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n** [Button.url('Grupum😋💬', 'https://t.me/OliqarcCenter']) Buda sizin reklamınız ola bilər  @iamZ3NT4**✅")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
@@ -251,7 +251,7 @@ async def mentionall(event):
       usrnum += 1
       usrtxt += f"[{random.choice(mafia)}](tg://user?id={usr.id}) "
       if event.chat_id not in anlik_calisan:
-        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n**Buda sizin reklamınız ola bilər  @iamZ3NT4**✅")
+        await event.respond("Tag prosesi uğurla dayandırıldı ✅\n\n** Buda sizin reklamınız ola bilər  @iamZ3NT4**✅")
         return
       if usrnum == 5:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
