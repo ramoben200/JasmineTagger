@@ -1,5 +1,5 @@
 ### 🚀 Deploy to heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SiyahimsinXSs/JasmineTagger)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ramoben200/JasmineTagger)
 
 ---
-> By Zenta Developer💕 by [@iamZ3NT4](https://t.me/iamZ3NT4).    
+> By RAMO Developer💕 by [@BOT_RAMO](https://t.me/BOT_RAMO).    
