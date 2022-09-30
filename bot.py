@@ -29,7 +29,7 @@ async def start(event):
 		      [Button.url('➕ Məni Qurupa əlavə et ➕', 'http://t.me/JasmineTaggerBot?startgroup=a')],
                       [Button.url('Support 🤝', 'https://t.me/JasmineSup')],
                       [Button.url('Rəsmi Kanal 📢', 'https://t.me/Tamistedigim')],
-                      [Button.url('Grupum 💬', 'https://t.me//Alay57Chat')],
+                      [Button.url('Grupum 💬', 'https://t.me//Ballasresmi')],
 		      [Button.url('Sahib 💞', 'https://t.me/iamZ3NT4')] 
                     ),
                     link_preview=False
